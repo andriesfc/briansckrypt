@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.andriesfc.briansckrypt
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, control-panel, graalvm, gradle, http-client-test, jackson-databind, kapt, kotest, kotlin, kotlin-application, kotlin-extension-functions, logback, management, micrometer, micrometer-annotation, micronaut-aot, micronaut-build, micronaut-http-validation, netty-server, openapi, problem-json, readme, serialization-jackson, shade, swagger-ui, validation, yaml, yaml-build]
