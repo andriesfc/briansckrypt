@@ -13,12 +13,12 @@ import io.swagger.v3.oas.annotations.info.*
             version = "0.0"
     )
 )
-object Api {
-}
+object Api
+
 @ContextConfigurer
 class Configurer: ApplicationContextConfigurer {
     override fun configure(builder: ApplicationContextBuilder) {
-        builder.defaultEnvironments("dev");
+        builder.defaultEnvironments("dev")
 	}
 }
 fun main(args: Array<String>) {

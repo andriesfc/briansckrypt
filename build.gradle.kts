@@ -7,7 +7,6 @@ plugins {
     id("io.micronaut.aot") version "4.0.4"
 }
 
-version = "0.1"
 group = "com.andriesfc.briansckrypt"
 
 val kotlinVersion=project.properties.get("kotlinVersion")

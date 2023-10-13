@@ -1,0 +1,21 @@
+localhost:8080/health
+
+###
+POST localhost:8080/shes-broken
+Content-Type: application/json
+
+{
+  "name": "John",
+  "color": "green",
+  "units": 2201
+}
+
+###
+GET localhost:8080/shes-broken
+
+
+
+
+
+
+
