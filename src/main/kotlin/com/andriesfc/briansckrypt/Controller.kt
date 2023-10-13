@@ -11,7 +11,7 @@ import java.time.LocalDate
 import kotlin.random.Random
 import kotlin.random.nextInt
 
-@Controller("/shes-broken")
+@Controller("/api")
 open class Controller {
 
     @Get( produces = [MediaType.APPLICATION_JSON])

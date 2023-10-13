@@ -1,7 +1,7 @@
 localhost:8080/health
 
 ###
-POST localhost:8080/shes-broken
+POST localhost:8080/api
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 }
 
 ###
-GET localhost:8080/shes-broken
+GET localhost:8080/api
 
 
 
